@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    #login-container{
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+#login-form{
+    box-sizing: inherit;
+    display: block;
+    margin-top: 0em;
+}
+#login-div{
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+#login-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+}
+#complete-login{
+    background-color: #033880;
+    color: white;
+    width: 100%;
+}
+#login-img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#RegistrationText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#registration-para{
+    text-align: center;
+}
+#form-message{
+    color: red;
+    font-weight: bold;
+}

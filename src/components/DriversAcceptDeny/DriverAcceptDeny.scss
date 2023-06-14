@@ -1,0 +1,28 @@
+.accept-deny-container {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.driver-accordian-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.offer-details {
+    display: flex;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons-container > button {
+    min-width: 100px;
+}

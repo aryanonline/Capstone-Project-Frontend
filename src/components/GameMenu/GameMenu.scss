@@ -1,0 +1,16 @@
+.questionLabel {
+    padding: 5px;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.currentQuestion {
+    background-color: #033880;
+    color: white;
+}
+
+.disabled {
+    cursor: default;
+    color: grey;
+}

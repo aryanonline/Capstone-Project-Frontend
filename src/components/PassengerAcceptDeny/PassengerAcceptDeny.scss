@@ -1,0 +1,33 @@
+.MuiAccordionDetails-root {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px 16px;
+}
+
+.MuiAccordionDetails-root > div {
+    width: -webkit-fill-available;
+}
+
+.driver-accordian-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.offer-details {
+    flex-direction: row;
+}
+
+.details-container {
+    width: inherit;
+}
+
+.buttons-container {
+    display: inline-block;
+    float: right;
+}
+
+.buttons-container > button {
+    min-width: 100px;
+}

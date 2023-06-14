@@ -1,0 +1,17 @@
+.option {
+    border-radius: 30px;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.option:hover {
+    background-color: #033880;
+    color: white;
+    transition: 0.3s;
+}
+
+.selected {
+    border: solid #033880;
+    border-radius: 30px;
+}

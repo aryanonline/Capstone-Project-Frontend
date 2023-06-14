@@ -1,0 +1,57 @@
+#registration-form{
+    box-sizing: inherit;
+    display: block;
+    margin-top: 0em;
+}
+#registration-div{
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+#registration-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+}
+#driver-body, #main-body{
+    padding: 5px;
+}
+#car-info, #personal-info, #role, #disabilities-info, #account-info{
+    text-align: left;
+}
+#make-form, #model-form, #Year-form, #LicenseNumber-form, #MaxRadius-form, #AvailableSeats-form, #name-form, #email-form, #telephone-form, #Date-picker, #user-form, #email-form, #password-form{
+    width: 100%;
+}
+#driver-para{
+    border: solid black;
+    max-width: 100%; 
+    max-height: 150px;
+    padding: 2%;
+    overflow: auto;
+}
+#play-btn{
+    width: 50%;
+    color: white;
+    background-color: #033880;
+
+}
+#passenger-btn, #driver-btn, #backToLogin-btn-small, #Next-btn, #Back-btn, #complete-btn {
+    width: -webkit-fill-available;
+    color: white;
+    background-color: #033880;
+}
+#driver-body, #disabilities-div, #toggled-block, #signup-body, #impairments-checkbox{
+    display: none;
+}
+#backToLogin-btn {
+    width: 100%;
+    color: white;
+    background-color: #033880;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

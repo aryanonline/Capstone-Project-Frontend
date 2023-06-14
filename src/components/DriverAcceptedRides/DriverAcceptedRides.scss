@@ -1,0 +1,22 @@
+.accepted-rides-container {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.ride-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.details-container {
+    flex: 1 1 0;
+}
+
+.map-container {
+    flex: 2 1 0;
+}

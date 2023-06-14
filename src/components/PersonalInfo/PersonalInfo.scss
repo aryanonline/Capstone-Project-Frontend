@@ -1,0 +1,65 @@
+#personal-info-section, #vehicle-info-section {
+    border: 2px solid #d2d2d2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#personal-info-fields, #vehicle-info-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 922px){
+    #personal-info-fields, #vehicle-info-fields {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    #personal-info-fields, #vehicle-info-fields {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.info-title {
+    color: #494949;
+}
+
+.profile-text {
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+#btn-messages {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#save-success {
+    flex: 3 1 0;
+}
+
+#profile-save {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Sora', sans-serif;
+    background: #033880;
+    height: min-content;
+    flex: 1 1 0;
+}
+
+#game-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Sora', sans-serif;
+    height: min-content;
+    flex: 1 1 0;
+}

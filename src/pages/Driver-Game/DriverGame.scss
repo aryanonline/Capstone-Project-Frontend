@@ -1,0 +1,75 @@
+#game-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    grid-template-areas: "score score score" "question question question" "questionMenu option1 option2" "questionMenu option3 option4" "button button button";
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+#game-container > div {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    grid-area: question;
+    background-color: #033880;
+    color: white;
+    justify-content: center;
+    border-radius: 100px;
+    align-items: center;
+}
+
+.questionMenu {
+    grid-area: questionMenu;
+    align-items: center;
+    overflow: scroll;
+    height: 210px !important;
+
+}
+
+.option1 {
+    grid-area: option1;
+}
+
+.option2 {
+    grid-area: option2;
+}
+
+.option3 {
+    grid-area: option3;
+}
+
+.option4 {
+    grid-area: option4;
+}
+
+.button {
+    grid-area: button;
+}
+
+.score {
+    grid-area: score;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    width: 100px !important;
+    height: 100px !important;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    align-items: center;
+    font-size: 32px;
+}
+
+.score > p {
+    width: 100px;
+    text-align: center;
+}
